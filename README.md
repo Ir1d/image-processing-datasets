@@ -53,6 +53,28 @@ RESIDE highlights diverse data sources and image contents, and is divided into f
 
 ## Deblurring (sharpening)
 
+> Understanding and evaluating blind deconvolution algorithms (CVPR 2009)
+
+Constructs a dataset with four latent sharp images and eight uniform blur kernels, resulting in a total of 32 test images.
+
+> Edge-based blur kernel estimation using patch priors
+
+Extend the dataset(the above one) by using 80 high-resolution natural images of diverse scenes and synthetically blurring each one with the eight blur kernels.
+
+>  Benchmarking blind deconvolution with a real-world database (ECCV 2012)
+
+Records 6D camera trajectories over time, and play back the camera motion on a robotic platform to capture blurred images. This benchmark contains four latent images and 12 camera trajectories.
+
+> A Comparative Study for Single Image Blind Deblurring (CVPR 2016)
+
+http://vllab.ucmerced.edu/wlai24/cvpr16_deblur_study/
+
+We construct two large datasets for evaluating image deblurring algorithms: (1) 100 real blurred images and (2) 200 synthetically blurred images with both uniform and non-uniform blur. Our real dataset contains real blurred images captured under different scenarios. Our synthetic dataset includes both uniform and non-uniform motion-blurred images.
+
+Real images: All these blurred images are captured in the real-world scenarios from different cameras (e.g., consumer cameras, DSLR, or cellphone cameras), different settings (e.g., exposure time, aperture size, ISO), and different users. We categorize images according to the following five attributes: man-made, natural, people/face, saturated, and text.
+
+Synthetic: To synthesize nonuniform blurred images, we record the 6D camera trajectories using a cellphone with inertial sensors (gyroscope and accelerometer), and construct a collection of spatially varying blur kernels by assuming constant depth for the scenes. We obtain the 100 non-uniform blurred images by applying four camera trajectories to 25 latent images and adding 1% Gaussian noise to simulate camera noise.
+
 ## De-rain
 
 ### rain streak removal
