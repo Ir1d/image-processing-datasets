@@ -2,6 +2,12 @@
 
 ## Dehazing
 
+> Waterloo IVC Dehazed Image Database
+
+Kede Ma, Wentao Liu and Zhou Wang, "Perceptual evaluation of single image dehazing algorithms," IEEE International Conference on Image Processing, Sept. 2015
+
+The dataset consists of 25 hazy images covering diverse outdoor scenes and indoor static objects. 22 images of outdoor scenes are captured in the real world and are degraded by haze to different extents, while the hazes of the other 3 indoor images are simulated homogenously. Then 8 dehazing algorithms proposed between 2009 and 2014 are selected to produce 8 different dehazed images for each of the 25 hazy images to form 25 image sets, each of which includes 9 images of the same content (1 hazy, 8 dehazed). In the subjective test, 24 subjects were showed 9 images of one image set at the same time on a display, and were asked to give scores according to perceptual qualities of these images.
+
 > Vision enhancement in homogeneous and heterogeneous fog
 
 FRIDA dataset designed for Advanced Driver Assistance Systems (ADAS) that is a synthetic image database (computer graphics generated scenes) with 66 roads synthesized scenes.
@@ -22,7 +28,7 @@ https://ieee-dataport.org/documents/hazerd-outdoor-dataset-dehazing-algorithms
 
 HazeRD contains 10 different scenes based on the architectural biometrics project. For each scene, the ground RGB images, depth maps, and synthesized hazy images following the atmospheric optics are provided; the hazy images come with five different haze level using real life physical parameters. HazeRD focuses on outdoor scenes whereas other datasets provide indoor scenes(?); and, the synthesis is based on real life parameters.
 
-> I-HAZE: A DEHAZING BENCHMARK WITH REAL HAZY AND HAZE-FREE INDOOR IMAGES *(NTIRE18)
+> I-HAZE: A DEHAZING BENCHMARK WITH REAL HAZY AND HAZE-FREE INDOOR IMAGES *(NTIRE18)*
 
 Contains 35 image pairs of hazy and corresponding haze-free (ground-truth) indoor images. Hazy images have been generated
 using real haze produced by two professional haze machines (LSM1500 PRO 1500 W). The images are captured in a controlled environment, both haze-free and hazy images are captured under the same illumination conditions.
@@ -38,6 +44,12 @@ We introduce the first outdoor scenes database (named O-HAZE) composed of pairs 
 Each scene acquisition has started with a manual adjustment of the camera settings. The same parameters are adopted to capture the haze-free and hazy scene. Those parameters include the shutter-speed (exposure-time), the aperture (F-stop), the ISO and white-balance. The similarity between hazy and haze-free acquisition settings is confirmed by the fact that the closer regions (that in general are less distorted by haze) have similar appearance (in terms of color and visibility) in the pair of hazy and haze-free images associated to a given scene.
 
 To set the camera parameters (aperture-exposure-ISO), we took advantage of the built-in light-meter of the camera, but also used an external exponometer (Sekonic). For the custom white-balance, we used the middle gray card (18% gray) of the color checker. This commonly used process in photography is quite straight-forward and requires to change the camera white-balance mode in manual mode and place the reference grey-card in the front of it. For this step, we have placed the gray-card in the center of the scene in the range of four meters.
+
+> RESIDE: A Benchmark for Single Image Dehazing
+
+https://sites.google.com/view/reside-dehaze-datasets
+
+RESIDE highlights diverse data sources and image contents, and is divided into five subsets, each serving different training or evaluation purposes. We further provide a rich variety of criteria for dehazing algorithm evaluation, ranging from full-reference metrics, to no-reference metrics, to subjective evaluation and the novel task-driven evaluation. 
 
 ## Deblurring (sharpening)
 
