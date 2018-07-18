@@ -51,6 +51,8 @@ https://sites.google.com/view/reside-dehaze-datasets
 
 RESIDE highlights diverse data sources and image contents, and is divided into five subsets, each serving different training or evaluation purposes. We further provide a rich variety of criteria for dehazing algorithm evaluation, ranging from full-reference metrics, to no-reference metrics, to subjective evaluation and the novel task-driven evaluation. 
 
+The RESIDE testing set is uniquely composed of Synthetic Objective Testing Set (SOTS), annotated Real-world Task-driven Testing Set (RTTS), and Hybrid Subjective Testing Set (HSTS) which has 1;000, 4;332, and 20 hazy images correspondingly.
+
 ## Deblurring (sharpening)
 
 > Understanding and evaluating blind deconvolution algorithms (CVPR 2009)
