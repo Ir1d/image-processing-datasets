@@ -105,6 +105,35 @@ https://ieeexplore.ieee.org/abstract/document/7934436/
 
 dataset: http://yu-li.github.io/paper/li_cvpr16_rain.zip
 
+> Removing rain from single images via a deep detail network
+
+[paper](http://openaccess.thecvf.com/content_cvpr_2017/papers/Fu_Removing_Rain_From_CVPR_2017_paper.pdf)
+
+We collect 1,000 clean images from the UCID dataset, the BSD dataset and Google image search to synthesize rainy images. Each clean image was used to generate 14 rainy images with different streak orientations and magnitudes.
+
+> Deep Joint Rain Detection and Removal From a Single Image
+
+[project page](http://www.icst.pku.edu.cn/struct/Projects/joint_rain_removal.html) (dataset publicly available)
+
+The images for synthesizing Rain100L, Rain20L and Rain100H are selected from BSD200. The rain streaks are synthesized in two
+ways: (1) the photorealistic rendering techniques; (2) the simulated sharp line streaks along a certain direction with a small variation within an image.
+
+> Single image deraining via decorrelating the rain streaks and background scene in gradient domain
+
+We produced some synthetic images by using Photoshop2 for test.
+
+> Video Rain Streak Removal By Multiscale ConvolutionalSparse Coding
+
+[git repo](https://github.com/MinghanLi/MS-CSC-Rain-Streak-Removal) (dataset publicly available)
+
+Three videos from CDNET database largely vary in moving objects and background scenes. We add different types of rain streaks taken by photographers under black background on these videos, varing from tiny drizzling to heavy rain storm and vertical rain to slash line.
+
+> Density-aware Single Image De-raining using a Multi-stream Dense Network
+
+`Train1` (dataset publicly available)
+
+A largescale dataset consisting of 12,000 images with different rain-density levels/labels (i.e. heavy, medium and light) is  synthesized.
+
 ### rain drop removal
 
 > Attentive Generative Adversarial Network for Raindrop Removal from A Single Image (CVPR'2018)
