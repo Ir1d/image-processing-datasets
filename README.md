@@ -130,7 +130,7 @@ Three videos from CDNET database largely vary in moving objects and background s
 
 > Density-aware Single Image De-raining using a Multi-stream Dense Network
 
-`Train1` (dataset publicly available)
+[git repo](https://github.com/hezhangsprinter/DID-MDN) (dataset publicly available)
 
 A largescale dataset consisting of 12,000 images with different rain-density levels/labels (i.e. heavy, medium and light) is  synthesized.
 
